@@ -22,7 +22,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-'''
+```
 admin.py
 
 from django.contrib import admin
@@ -46,7 +46,7 @@ class movieAdmin(admin.ModelAdmin):
 
 ## OUTPUT
 
-![image](https://github.com/user-attachments/assets/501a4530-7271-4634-8dea-6c1171b77d91)
+![Screenshot 2025-05-20 093350](https://github.com/user-attachments/assets/bc9df290-be2c-470d-9a0c-21789a6ca684)
 
 
 ## RESULT
