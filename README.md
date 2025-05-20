@@ -42,7 +42,7 @@ class movie(models.Model):
 
 class movieAdmin(admin.ModelAdmin):
     list_display=('movieid','moviename','date_of_release',' genre','lang')
-    ```
+```
 
 ## OUTPUT
 
