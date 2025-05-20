@@ -22,31 +22,12 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-```
-admin.py
 
-from django.contrib import admin
-from .models import movie,movieAdmin
-admin.site.register(movie,movieAdmin)
 
-models.py
 
-from django.db import models
-from django.contrib import admin
-class movie(models.Model):
-    movieid=models.CharField(max_length=20,help_text="Employee ID")
-    moviename=models.CharField(max_length=100)
-    date_of_release=models.DateField()
-    genre=models.CharField(max_length=30)
-    lang=models.CharField(max_length=20)
-
-class movieAdmin(admin.ModelAdmin):
-    list_display=('movieid','moviename','date_of_release',' genre','lang')
-```
 
 ## OUTPUT
 
-![Screenshot 2025-05-20 093350](https://github.com/user-attachments/assets/bc9df290-be2c-470d-9a0c-21789a6ca684)
 
 
 ## RESULT
